@@ -1,11 +1,11 @@
 # Pull Request Tracker
 
-This directory contains tools to track and list all accepted (merged) pull requests from the forked repository.
+This directory contains tools to track and list all accepted (merged) pull requests from the **parent repository** `gtech-mulearn/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala`.
 
 ## Files
 
-- **`accepted_prs.txt`**: Output file containing all accepted PRs in the required format
-- **`get_accepted_prs.py`**: Python script to fetch and format accepted PRs
+- **`accepted_prs.txt`**: Output file containing all accepted PRs from the parent repo in the required format
+- **`get_accepted_prs.py`**: Python script to list and format accepted PRs by djmahe4
 
 ## Format
 
@@ -27,37 +27,34 @@ cat accepted_prs.txt
 
 Run the Python script to regenerate the list of accepted PRs:
 ```bash
-python3 get_accepted_prs.py
+python3 get_accepted_prs.py > accepted_prs.txt
 ```
-
-The script will output the formatted list to stdout. To save it to a file:
-```bash
-python3 get_accepted_prs.py 2>/dev/null > accepted_prs.txt
-```
-
-### Script Modes
-
-The script supports two modes:
-
-1. **GitHub CLI Mode** (if `gh` is authenticated):
-   - Automatically fetches PRs using `gh pr list`
-   - Requires GH_TOKEN environment variable in CI/CD
-
-2. **Manual Mode** (fallback):
-   - Uses pre-collected PR data
-   - Works without authentication
-   - Update `get_manual_pr_data()` function when new PRs are merged
 
 ## Current Accepted PRs
 
-As of the last update, the following PRs have been merged:
+As of November 2025, the following PRs have been merged to the parent repository:
 
-- **PR #1**: Add README.md for Maheshwar Anup bootcamp submissions
-  - Contains all 9 muLearn x OWASP Kerala Cybersecurity Bootcamp tasks
-  - Tasks: 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - URL: https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
+- **PR #12**: Add my contribution file (Task 1)
+  - Merged: 2025-07-10
+  - URL: https://github.com/gtech-mulearn/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/12
+
+- **PR #70**: Add my contribution file (Task 2)
+  - Merged: 2025-07-17
+  - URL: https://github.com/gtech-mulearn/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/70
+
+- **PR #205**: Added task3 (Task 3)
+  - Merged: 2025-08-09
+  - URL: https://github.com/gtech-mulearn/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/205
+
+- **PR #315**: Added tasks 4 and 5 (Tasks 4 & 5)
+  - Merged: 2025-08-29
+  - URL: https://github.com/gtech-mulearn/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/315
+
+- **PR #426**: Added Tasks 6-9 (Tasks 6, 7, 8 & 9)
+  - Merged: 2025-11-01
+  - URL: https://github.com/gtech-mulearn/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/426
 
 ## Requirements
 
 - Python 3.x
-- GitHub CLI (`gh`) - optional, for automatic PR fetching
+- No external dependencies required
