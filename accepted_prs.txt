@@ -1,0 +1,9 @@
+#cl-cybersec-owaspbootcamp1 https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
+#cl-cybersec-owaspbootcamp2 https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
+#cl-cybersec-owaspbootcamp3 https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
+#cl-cybersec-owaspbootcamp4 https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
+#cl-cybersec-owaspbootcamp5 https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
+#cl-cybersec-owaspbootcamp6 https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
+#cl-cybersec-owaspbootcamp7 https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
+#cl-cybersec-owaspbootcamp8 https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
+#cl-cybersec-owaspbootcamp9 https://github.com/djmahe4/Cyber-Security-Bootcamp-Mulearn-OWASP-Kerala/pull/1
